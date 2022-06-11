@@ -17,6 +17,8 @@
 		B7225A632854CF2D003F5DAC /* SmallAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7225A622854CF2D003F5DAC /* SmallAddButton.swift */; };
 		B7225A662854DC1B003F5DAC /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = B7225A652854DC1B003F5DAC /* Realm */; };
 		B7225A682854DC1B003F5DAC /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B7225A672854DC1B003F5DAC /* RealmSwift */; };
+		B7225A6A2854DC5E003F5DAC /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7225A692854DC5E003F5DAC /* RealmManager.swift */; };
+		B7225A6C2854DD89003F5DAC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7225A6B2854DD89003F5DAC /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		B7225A5D2854C745003F5DAC /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 		B7225A5F2854C9BB003F5DAC /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 		B7225A622854CF2D003F5DAC /* SmallAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallAddButton.swift; sourceTree = "<group>"; };
+		B7225A692854DC5E003F5DAC /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		B7225A6B2854DD89003F5DAC /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +72,9 @@
 				B7225A5B2854C575003F5DAC /* Views */,
 				B7225A4B2854BFC0003F5DAC /* ToDoAppApp.swift */,
 				B7225A4F2854BFC2003F5DAC /* Assets.xcassets */,
+				B7225A692854DC5E003F5DAC /* RealmManager.swift */,
 				B7225A512854BFC2003F5DAC /* Preview Content */,
+				B7225A6B2854DD89003F5DAC /* Task.swift */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -184,11 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7225A6C2854DD89003F5DAC /* Task.swift in Sources */,
 				B7225A4E2854BFC0003F5DAC /* ContentView.swift in Sources */,
 				B7225A602854C9BB003F5DAC /* AddTaskView.swift in Sources */,
 				B7225A5A2854C556003F5DAC /* TasksView.swift in Sources */,
 				B7225A632854CF2D003F5DAC /* SmallAddButton.swift in Sources */,
 				B7225A4C2854BFC0003F5DAC /* ToDoAppApp.swift in Sources */,
+				B7225A6A2854DC5E003F5DAC /* RealmManager.swift in Sources */,
 				B7225A5E2854C745003F5DAC /* TaskRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
